@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
   height: 50px;
@@ -35,16 +30,27 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
-  border-color: rgb(3, 3, 99);
+  border-color: black;
   color: black;
 }
 
 .submitButton {
-  background: greenyellow;
+  background-color: #4CAF50;
+  border: solid;
+  border-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.submitButton:hover {
   color: black;
-  border-style: solid;
-  border-color: greenyellow;
-  border-radius: 5px;
-  padding: 10px 20px;
-  align-content: center;
+  background-color: white;
 }
